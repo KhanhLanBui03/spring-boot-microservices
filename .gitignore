@@ -1,0 +1,87 @@
+### Maven ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### OS generated files ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+*.out
+logs/
+
+### Docker volumes & DB runtime data ###
+# MySQL & MariaDB
+/mysql/
+volume-data/mysql_keycloak_data/
+my-sql-data/
+*.pid
+*.sock
+*.cnf
+*.err
+*.frm
+*.ibd
+*.ib_logfile*
+*.opt
+
+# MongoDB
+/mongo-data/
+/data/
+*.lock
+WiredTiger*
+.mongosh/
+
+# Postgres
+/postgres/
+/postgres-inventory/
+/postgres-order/
+
+# Grafana, Loki, Prometheus, Tempo
+/grafana/
+/loki/
+/prometheus/
+/tempo/
+
+# Keycloak runtime data
+/keycloak-data/
+
+### Node / Frontend (nếu có) ###
+node_modules/
+dist/
+build/
+
+### Others ###
+*.swp
+*.tmp
+*.bak
